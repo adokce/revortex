@@ -1,12 +1,17 @@
 module.exports = {
   theme: {
+    theme: {
+      fontFamily: {
+        body: ["Muli", "sans-serif"],
+        display: ["Muli", "sans-serif"]
+      }
+    },
     extend: {
       spacing: {
-        "72": "18rem",
-        "84": "21rem",
-        "96": "24rem",
-        "144": "30rem",
-        "288": "60rem"
+        "128": "32rem",
+        "160": "40rem",
+        "192": "48rem",
+        "224": "56rem"
       }
     }
   },
