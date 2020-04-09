@@ -6,7 +6,7 @@ export default function Login() {
       <div className="bg-yellow-600 p-1 text-center font-bold">
         <ion-icon name="hammer" />
         &nbsp; Currently in a Staging Environment. To access Production, go to
-        connectedbynexus.com
+        &nbsp;<span className="underline">connectedbynexus.com</span>
       </div>
       <div className="min-h-screen flex flex-row justify-center items-stretch">
         <LoginSidebar />
